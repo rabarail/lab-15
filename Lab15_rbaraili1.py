@@ -4,7 +4,6 @@ The purpose of the program: uses matplotlib to plot one of your favorite math fo
 Any info about starter code (If used, where it came from, link, etc.), and the: none
 Date: 5/4/2026"""
 
-x = []
-y= []
+
 
 
