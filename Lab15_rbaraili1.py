@@ -20,3 +20,15 @@ while t <= 6 * math.pi:
     y.append(r * math.sin(t))
 
     t = round(t + step, 10)
+
+
+plt.plot(x, y)
+plt.title("Spiral") 
+plt.xlabel("x")
+plt.ylabel("y") 
+plt.axis("equal")
+plt.grid()
+plt.savefig("spiral.png")  
+plt.show()
+
+
