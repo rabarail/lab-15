@@ -14,3 +14,9 @@ step = 0.05
 a = 1
 t = 0.0
 
+while t <= 6 * math.pi:      
+    r = a * t # radius grows with angle
+    x.append(r * math.cos(t))
+    y.append(r * math.sin(t))
+
+    t = round(t + step, 10)
